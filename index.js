@@ -5,11 +5,11 @@ function setTime() {
 
   context.beginPath();
 
-  context.fillStyle = "black";
+  context.fillStyle = "orange";
   context.arc(clockRadius, clockRadius, clockRadius, 0, 2 * Math.PI);
   context.fill();
 
-  context.fillStyle = "white";
+  context.fillStyle = "black";
 
   context.beginPath();
   context.arc(clockRadius, clockRadius, 10, 0, 2 * Math.PI);
